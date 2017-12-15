@@ -92,22 +92,22 @@ if &compatible
 endif
 
 " Required:
-set runtimepath+=/Users/MBPU/.vim/bundle/repos/github.com/Shougo/dein.vim
+set runtimepath+=/Users/yu_iimura/dotfiles/.vim/dein/repos/github.com/Shougo/dein.vim
 
 " Required:
-if dein#load_state('/Users/MBPU/.vim/bundle')
-  call dein#begin('/Users/MBPU/.vim/bundle')
+if dein#load_state('/Users/yu_iimura/dotfiles/.vim/dein')
+  call dein#begin('/Users/yu_iimura/dotfiles/.vim/dein')
 
   " Let dein manage dein
   " Required:
-  call dein#add('/Users/MBPU/.vim/bundle/repos/github.com/Shougo/dein.vim')
+  call dein#add('/Users/yu_iimura/dotfiles/.vim/dein/repos/github.com/Shougo/dein.vim')
 
   " Add or remove your plugins here:
   call dein#add('Shougo/neosnippet.vim')
   call dein#add('Shougo/neosnippet-snippets')
 
   " You can specify revision/branch/tag.
-  call dein#add('Shougo/vimshell', { 'rev': '3787e5' })
+  call dein#add('Shougo/deol.nvim', { 'rev': 'a1b5108fd' })
 
   " Required:
   call dein#end()
@@ -124,7 +124,6 @@ syntax enable
 "endif
 
 "End dein Scripts-------------------------
-
 
 
 " ==================== plugins ===============================
