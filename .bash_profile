@@ -15,3 +15,7 @@ export PATH=$HOME/.nodebrew/current/bin:$PATH
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
 
+
+# flutter PATH
+export PATH=/Users/yu_iimura/flutter/bin:$PATH
+
