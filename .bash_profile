@@ -10,6 +10,11 @@ alias lla='ls -al'
 export PATH=/usr/local/var/nodebrew/current/bin:$PATH
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 
+# rbenv PATH & init command
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+
 
 # jenv PATH
 export PATH="$HOME/.jenv/bin:$PATH"
