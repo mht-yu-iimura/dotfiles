@@ -4,11 +4,16 @@ alias lla='ls -al'
 
 
 
-#PATH
+### PATH
+
+# search PATH
+export PATH=/usr/local/bin:$PATH
+
 
 # nodebrew PATH
 export PATH=/usr/local/var/nodebrew/current/bin:$PATH
 export PATH=$HOME/.nodebrew/current/bin:$PATH
+
 
 # rbenv PATH & init command
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
