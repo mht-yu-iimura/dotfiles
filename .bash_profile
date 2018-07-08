@@ -29,3 +29,8 @@ eval "$(jenv init -)"
 # flutter PATH
 export PATH=/Users/yu_iimura/flutter/bin:$PATH
 
+
+# icu PATH
+export PATH=/usr/local/opt/icu4c/bin:$PATH
+export PATH=/usr/local/opt/icu4c/sbin:$PATH
+
