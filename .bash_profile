@@ -34,3 +34,10 @@ export PATH=/Users/yu_iimura/flutter/bin:$PATH
 export PATH=/usr/local/opt/icu4c/bin:$PATH
 export PATH=/usr/local/opt/icu4c/sbin:$PATH
 
+
+# yarn PATH
+export PATH=/usr/local/:Cellar/yarn/1.7.0:$PATH
+
+
+
+
