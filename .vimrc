@@ -73,6 +73,8 @@ set wrapscan
 set hlsearch
 " ESC連打でハイライト解除
 nmap <Esc><Esc> :nohlsearch<CR><Esc>
+" クリップボード有効
+set clipboard=unnamed,autoselect
 
 
 "viとの互換性を無効にする(INSERT中にカーソルキーが有効になる)
