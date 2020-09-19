@@ -109,7 +109,13 @@ if dein#load_state('/Users/yu_iimura/dotfiles/.vim/dein')
   call dein#add('Shougo/neosnippet-snippets')
 
   " You can specify revision/branch/tag.
-  call dein#add('Shougo/deol.nvim', { 'rev': 'a1b5108fd' })
+"  call dein#add('Shougo/deol.nvim', { 'rev': 'a1b5108fd' })
+
+  
+
+  call dein#add('Shougo/neocomplete.vim') " 補完
+  call dein#add('Townk/vim-autoclose') " カッコを自動で閉じる
+
 
   " Required:
   call dein#end()
@@ -121,14 +127,12 @@ filetype plugin indent on
 syntax enable
 
 " If you want to install not installed plugins on startup.
-"if dein#check_install()
-"  call dein#install()
-"endif
+if dein#check_install()
+  call dein#install()
+endif
 
 "End dein Scripts-------------------------
 
 
 " ==================== plugins ===============================
-call dein#add('Shougo/neocomplete.vim') " 補完
-call dein#add('Townk/vim-autoclose') " カッコを自動で閉じる
 

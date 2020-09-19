@@ -1,2 +1,2 @@
 100
-['/Users/yu_iimura/dotfiles/.vim/dein/repos/github.com/Shougo/dein.vim', 'Shougo/deol.nvim', 'Shougo/neosnippet-snippets', 'Shougo/neosnippet.vim']
+['/Users/yu_iimura/dotfiles/.vim/dein/repos/github.com/Shougo/dein.vim', 'Shougo/neocomplete.vim', 'Shougo/neosnippet-snippets', 'Shougo/neosnippet.vim', 'Townk/vim-autoclose']
